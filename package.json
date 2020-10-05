@@ -9,7 +9,7 @@
     "test": "lerna run test",
     "clean-modules": "lerna clean -y",
     "clean": "lerna run clean",
-    "postinstall": "lerna bootstrap && lerna link"
+    "postinstall": "sudo lerna bootstrap && sudo lerna link"
   },
   "keywords": [
     "twa",
